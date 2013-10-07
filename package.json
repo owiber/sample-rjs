@@ -1,0 +1,19 @@
+{
+  "name": "sample-rjs",
+  "version": "0.0.0",
+  "description": "sample-rjs ==========",
+  "main": "dev/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/requirejs/bin/r.js -o build.js optimize=none",
+    "build2": "node ./node_modules/requirejs/bin/r.js -o build.js optimize=none namespace=foo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/owiber/sample-rjs.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/owiber/sample-rjs/issues"
+  }
+}
